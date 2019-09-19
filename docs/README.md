@@ -30,11 +30,10 @@
 ## Support
 - **Important: Only official release versions validated by the phpBB Extensions Team should be installed on a live forum. Pre-release (beta, RC) versions downloaded from this repository are only to be used for testing on offline/development forums and are not officially supported.**
 - Report bugs and other issues to our **[Issue Tracker](https://github.com/phpBB-Studio/TextFormatter/issues)**.
-- Support requests should be posted and discussed in the **[Text formatter topic](https://www.phpbb.com/community/viewtopic.php?f=456&t=2522331&p=15319521)** over at [phpBB.com](https://www.phpbb.com).
+- Support requests should be posted and discussed in the **[Text formatter topic](https://www.phpbb.com/community/viewtopic.php?f=456&t=2523206)** over at [phpBB.com](https://www.phpbb.com).
 
 ## Translations
-- Translations should be posted in the **[Text formatter topic](https://www.phpbb.com/community/viewtopic.php?f=456&t=2522331&p=15319521)** over at [phpBB.com](https://www.phpbb.com).
-- Translation <u>***corrections***</u> are accepted as pull requests.
+- Translations should be posted in the **[Text formatter topic](https://www.phpbb.com/community/viewtopic.php?f=456&t=2523206)** over at [phpBB.com](https://www.phpbb.com).
 - New translations are <u>***not***</u> accepted as pull requests.
 
 ## Features
