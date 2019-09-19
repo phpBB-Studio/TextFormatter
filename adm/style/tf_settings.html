@@ -1,0 +1,40 @@
+{% include 'overall_header.html' %}
+
+<h1>{{ lang('ACP_STUDIO_TF_SETTINGS') }}</h1>
+
+<form id="tf_settings" name="tf_settings" method="post" action="{{ U_ACTION }}">
+	<fieldset>
+		{% for key, value in TF_SETTINGS %}
+			<dl>
+				<dt><label for="{{ key }}">{{ lang('ACP_STUDIO_TF_' ~ key|upper) ~ lang('COLON') }}</label></dt>
+				<dd>
+					<label>
+						<input class="radio" id="{{ key }}" name="{{ key }}" type="radio" value="1"{{ value ? ' checked' }}>
+						{{ lang('ENABLED') }}
+					</label>
+					<label>
+						<input class="radio" name="{{ key }}" type="radio" value="0"{{ not value ? ' checked' }}>
+						{{ lang('DISABLED') }}
+					</label>
+				</dd>
+			</dl>
+		{% endfor %}
+		<dl>
+			<dt><label for="template">{{ lang('ACP_STUDIO_TF_TEMPLATE') ~ lang('COLON') }}</label></dt>
+			<dd><textarea class="inputbox autowidth" id="template" name="template" rows="5">{{ TF_TEMPLATE }}</textarea></dd>
+		</dl>
+	</fieldset>
+
+	<fieldset>
+		<legend>{{ lang('ACP_SUBMIT_CHANGES') }}</legend>
+
+		<p class="submit-buttons">
+			{{ S_FORM_TOKEN }}
+			<input class="button1" id="submit" name="submit" type="submit" value="{{ lang('SUBMIT') }}">
+			&nbsp;
+			<input class="button2" id="reset" name="reset" type="reset" value="{{ lang('RESET') }}">
+		</p>
+	</fieldset>
+</form>
+
+{% include 'overall_footer.html' %}

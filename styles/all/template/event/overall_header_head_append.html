@@ -1,0 +1,4 @@
+{% if STUDIO_TF_PIPETABLES and not defined.INCLUDED_TFPIPESCSS %}
+	{% INCLUDECSS '@phpbbstudio_textformatter/tf_pipes.css' %}
+	{% DEFINE INCLUDED_TFPIPESCSS = true %}
+{% endif %}

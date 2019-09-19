@@ -1,0 +1,38 @@
+/**
+ *
+ * phpBB Studio - Text formatter. An extension for the phpBB Forum Software package.
+ *
+ * @copyright (c) 2019, phpBB Studio, https://www.phpbbstudio.com
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
+
+/** Pipes CSS */
+.tf-table {
+	margin-bottom: 4px;
+
+	/** To look more like common tables */
+	background-color: #ffffff;
+	border: 1px solid #cccfd3;
+	border-collapse: separate;
+	border-spacing: 1px;
+	width: 100%;
+	padding: 1px;
+}
+
+.tf-table th,
+.tf-table td {
+	padding: 4px 10px;
+}
+
+.tf-table th {
+	background-color: #12a3eb;
+	background-image: -webkit-linear-gradient(top, #6aceff 0%, #0076b1 2px, #12a3eb 100%);
+	background-image: linear-gradient(to bottom, #6aceff 0%, #0076b1 2px, #12a3eb 100%);
+	background-repeat: repeat-x;
+	color: #ffffff;
+}
+
+.tf-table tr:hover {
+	background-color: #fafafa;
+}

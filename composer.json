@@ -1,0 +1,27 @@
+{
+	"name": "phpbbstudio/textformatter",
+	"type": "phpbb-extension",
+	"description": "phpBB Studio - Text formatter",
+	"homepage": "https://www.phpbbstudio.com",
+	"version": "1.0.0-beta",
+	"time": "2019-09-19",
+	"license": "GPL-2.0-only",
+	"authors": [
+		{
+			"name": "phpBB Studio",
+			"email": "info@phpbbstudio.com",
+			"homepage": "https://www.phpbbstudio.com",
+			"role": "Lead developers"
+		}
+	],
+	"require": {
+		"php": ">=5.4.7",
+		"composer/installers": "~1.0"
+	},
+	"extra": {
+		"display-name": "phpBB Studio - Text formatter",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.2.0,<4.0.0@dev"
+		}
+	}
+}

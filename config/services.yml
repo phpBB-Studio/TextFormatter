@@ -1,0 +1,17 @@
+services:
+    studio.textformatter.listener:
+        class: phpbbstudio\textformatter\event\listener
+        arguments:
+            - '@auth'
+            - '@cache'
+            - '@config'
+            - '@config_text'
+            - '@dbal.conn'
+            - '@controller.helper'
+            - '@language'
+            - '@path_helper'
+            - '@template'
+            - '@user'
+            - '%core.table_prefix%'
+        tags:
+            - { name: event.listener }
