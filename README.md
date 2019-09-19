@@ -1,0 +1,2 @@
+# TextFormatter
+The [phpBB Forum Software](https://www.phpbb.com) uses the [s9e Textformatter](https://github.com/s9e/TextFormatter) developed by [JoshyPHP](https://www.phpbb.com/community/memberlist.php?mode=viewprofile&amp;u=1325630). This text formatter has a lot more possibilities and options than phpBB is using. In order to give you, the Administrator, full power over how your board's text is formatted, we have made this extension. This way you can easily enable / disable any plugin and optimise your custom BBCodes.
